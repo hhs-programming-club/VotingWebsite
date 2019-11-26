@@ -1,0 +1,11 @@
+.candidate {
+    background-color: lightblue;
+    display: table-cell;
+    border-style: solid;
+    border-color: red;
+}
+
+.candidate img {
+    float: left;
+    margin-right: 30px;
+}
