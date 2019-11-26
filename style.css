@@ -5,7 +5,8 @@ head{
 	background: #1abc9c;
 	font-size: 40px;
 	text-align: center;
-	font-family: Arial;
+	font-family: Times;
+	font-weight: lighter;
 }
 
 
@@ -15,5 +16,9 @@ body{
 	align-content: space-around;
 	scroll-behavior: smooth;
 	animation-duration: 200ms;
+	height: auto;
 }
-	
+
+.box{
+	transition-duration: 2s;
+	transition-property: margin-right, color;
