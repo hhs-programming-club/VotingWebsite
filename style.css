@@ -5,10 +5,15 @@ head{
 	background: #1abc9c;
 	font-size: 40px;
 	text-align: center;
-	font-family: Times;
+	font-family: Arial;
 }
+
 
 body{
 	padding: 80%;
 	margins: 10%;
+	align-content: space-around;
+	scroll-behavior: smooth;
+	animation-duration: 200ms;
 }
+	
