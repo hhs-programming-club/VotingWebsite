@@ -22,3 +22,4 @@ body{
 .box{
 	transition-duration: 2s;
 	transition-property: margin-right, color;
+}
