@@ -2,7 +2,7 @@
 head{
 	margin: 0;
 	background-color: black;
-	background: #1abc9c;
+	background-color: #1abc9c;
 	font-size: 40px;
 	text-align: center;
 	font-family: Times;
@@ -11,16 +11,24 @@ head{
 
 
 body{
-	padding: 80%;
-	margins: 10%;
-	align-content: space-around;
-	align-items: center;
-	scroll-behavior: smooth;
-	animation-duration: 200ms;
-	height: auto;
+	background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.box{
-	transition-duration: 2s;
-	transition-property: margin-right, color;
+button{
+	background-color: lightblue;
+	animation: fade 1s ease forwards;
+}
+
+@keyframes fade {
+	from{
+		opacity: 1;
+		pointer-events: all;
+	}
+	to{
+		opacity: 0;
+		pointer-events: none;
+	}
 }
