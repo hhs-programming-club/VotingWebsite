@@ -1,1 +1,5 @@
-
+body { background-color: teal; }
+#koomar {
+	background-color: blue;
+        margin-left:20px;
+}
